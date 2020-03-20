@@ -13,7 +13,6 @@ func sum(in string) int {
 	for i := 0; i < len(strArr); i++ {
 		x, _ := strconv.Atoi(string(strArr[i]))
 		result += x
-		fmt.Println("result : " + strconv.Itoa(result))
 	}
 
 	return result
