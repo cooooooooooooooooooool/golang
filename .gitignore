@@ -1,4 +1,4 @@
 .vscode/
-pkg/
 *.code-workspace
 *.exe
+*.a
